@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  {% include 'header.html' %}
+  {% include 'header.php' %}
 </head>
 
 <body>
-  {% include 'nav.html' %}
-
+  {% include 'nav.php' %}
+  
   {% block content %}{% endblock %}
 </body>
 </html>
