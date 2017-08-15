@@ -1,28 +1,14 @@
-# php-getting-started
+# php-progress-bar
 
-A barebones PHP app that makes use of the [Silex](http://silex.sensiolabs.org/) web framework, which can easily be deployed to Heroku.
+User with five stages for onboarding- We show each stage completion in a progress bar.
 
-This application supports the [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php) article - check it out.
+Listing all users/search/filter/pagination is the landing page. provided to which a individual user show page where in detail information is listed.
 
-## Deploying
+#technology Used
+PHP- 7.1.8
+Mysql
+Jquery
+Jquery Datatable
+Bootstrap
 
-Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
-```sh
-$ git clone git@github.com:heroku/php-getting-started.git # or clone your own fork
-$ cd php-getting-started
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Documentation
-
-For more information about using PHP on Heroku, see these Dev Center articles:
-
-- [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php)
-- [PHP on Heroku](https://devcenter.heroku.com/categories/php)
